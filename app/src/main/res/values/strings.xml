@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Jokes Up</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="button_settings">Settıngs</string>
+    <string name="button_myfavorites">My Favorıtes</string>
+    <string name="toolbar_title_favorite">My Favorited Jokes</string>
+
+    <string name="button_gorandom">Go Random</string>
+    <string name="text_choose_a_category">Or Choose a Category</string>
+    <string name="text_welcome">Welcome to Jokes Up</string>
+
+    <string name="joke_download">com.vinyentertainment.jokesup.jokeDownload</string>
+    <string name="download_choice">jokeDownloadChoice</string>
+    <string name="how_many_times_worked">howManyTimes</string>
+    <string name="download_choice_later">later</string>
+    <string name="download_choice_never">never</string>
+
+    <string name="rate_title">Rate the App :)</string>
+    <string name="rate_message">If you enjoy the app, could you please rate it?</string>
+    <string name="rate_positive">Rate Now</string>
+    <string name="rate_remind_later">Remind Me Later</string>
+    <string name="rate_never">Do not show again</string>
+
+
+    <string name="new_joke_title">New jokes are ready to download.</string>
+    <string name="new_joke_message">Expand your collection. Free!</string>
+    <string name="new_joke_positive">"Get them"</string>
+    <string name="new_joke_remind_later">"Remind Me Later"</string>
+    <string name="new_joke_never">"Do not show again"</string>
+
+
+    <string name="joke_patches">com.vinyentertainment.jokesup.jokePatches</string>
+    <string name="latest_installed_patch_number">latestInstalledPatchNumber</string>
+
+    <string name="play_store_link">favorite_id</string>
+
+
+    <string name="new_jokes_are_downloading">New Jokes Are Downloading</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id_test">banner_ad_unit_id_test</string>
+    <string name="publisher_id">your_publisher_id</string>
+
+    <string name="banner_ad_unit_id_in_MainActivity">your_banner_ad_unit_id</string>
+    <string name="hashed_device_id_for_test">your_hashed_device_id_for_test</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="privacy_web_page_title">Privacy Policy</string>
+    <string name="privacy_web_page_url">https://vinyentertainment.github.io/jokes-up-privacy-policy/</string>
+    <string name="terms_and_conditions_web_page_url">https://vinyentertainment.github.io/jokes-up-terms-and-conditions/</string>
+
+    <string name="settings_gdpr_user_consent">Review your GDPR Privacy Settings</string>
+    <string name="settings_gdpr_user_consent_bottom">GDPR settings for EEA Residents</string>
+
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_privacy_policy_bottom">You can visit our privacy policy page</string>
+    <string name="settings_terms_and_conditions">Terms and Conditions</string>
+    <string name="settings_terms_and_conditions_web_page_title">Terms and Conditions</string>
+
+
+    <string name="settings_about">About</string>
+    <string name="settings_rate_the_app">Rate the App</string>
+    <string name="settings_rate_the_app_bottom">Would you like to rate our app?</string>
+    <string name="settings_rate_the_app_url">market://details?id=com.vinyentertainment.jokesup</string>
+
+    <string name="settings_send_feedback">Send Feedback</string>
+    <string name="settings_send_feedback_bottom2">We appreciate feedbacks</string>
+    <string name="settings_send_feedback_bottom">Contact us / Request a feature</string>
+
+    <string name="settings_send_feedback_email">vinyentertainment@gmail.com</string>
+    <string name="settings_send_feedback_subject">Feedback for Jokes Up</string>
+
+    <string name="settings_other_apps">Other Apps</string>
+    <string name="settings_other_apps_bottom">Other apps from Viny Entertainment</string>
+    <string name="settings_other_apps_url">market://search?q=pub:vinyentertainment</string>
+
+    <string name="toast_to_show_swipe_text">Swipe right for next joke</string>
+    <string name="toast_to_show_swipe_pref_name">com.vinyentertainment.jokesup.toastToShowPrefName</string>
+    <string name="toast_to_show_swipe_counter">toastToShowSwipeCounter</string>
+
+</resources>

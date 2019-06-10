@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/jokeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="jokeTitle"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/grey_900"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/spacing_small"
+        />
+        <TextView
+            android:id="@+id/jokeStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="jokeStory"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/grey_900"
+            />
+        <TextView
+            android:id="@+id/jokeCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="jokeCategory"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/spacing_large">
+            <ImageButton
+                android:id="@+id/buttonUpvote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_thumb_up_black_24dp"
+                android:gravity="center"
+                android:background="@drawable/btn_rounded_accent"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/buttonDownvote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_thumb_down_black_24dp"
+                android:gravity="center"
+                android:background="@drawable/btn_rounded_accent"
+                >
+            </ImageButton>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/Button02"
+            style="@android:style/Widget.Button"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Apply">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/Button03"
+            style="@android:style/Widget.Button"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel">
+        </TextView>
+    </LinearLayout>
+    -->
+

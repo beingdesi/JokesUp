@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vinyentertainment.jokesup">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        >
+
+        <!-- Disable Firebase Crahslytics by default. Enable it in EntryActivity if user is not in EEA -->
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false" />
+
+        <activity android:name="com.vinyentertainment.jokesup.EntryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.vinyentertainment.jokesup.MainActivity"
+            android:parentActivityName="com.vinyentertainment.jokesup.EntryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="com.vinyentertainment.jokesup.FavoriteJokesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:parentActivityName="com.vinyentertainment.jokesup.FavoriteJokesActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+
+        <activity
+            android:name="com.vinyentertainment.jokesup.FavoriteJokesSingleView"
+            android:parentActivityName="com.vinyentertainment.jokesup.FavoriteJokesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="com.vinyentertainment.jokesup.SettingsActivity"
+            android:parentActivityName="com.vinyentertainment.jokesup.EntryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
